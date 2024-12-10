@@ -7,12 +7,6 @@ def main():
     ROUNDS_COUNT = 3
 
 
-    def generate_round():
-        number = random.randint(1, 100)
-        question = str(number)
-        correct_answer = "yes" if number %2 == 0 else "no"
-        return question, correct_answer
-
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name?")
     print(f"Hello, {name}!")
@@ -34,6 +28,13 @@ def main():
 
 
     print(f"Congratulations, {name}!")
+
+
+def generate_round():
+    number = random.randint(1, 100)
+    question = str(number)
+    correct_answer = "yes" if number %2 == 0 else "no"
+    return question, correct_answer
 
 
 if __name__ == "__main__":
