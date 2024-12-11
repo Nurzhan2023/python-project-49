@@ -8,5 +8,7 @@
 
 [![asciinema](https://asciinema.org/a/PNmEbU9vVlbWT5rvvzptOk1kX.svg)](https://asciinema.org/a/PNmEbU9vVlbWT5rvvzptOk1kX)
 
+[![asciinema](https://asciinema.org/a/PSMfRjtLIYa1SfJU35MwgvQqp.svg)](https://asciinema.org/a/PSMfRjtLIYa1SfJU35MwgvQqp)
+
 <a href="https://codeclimate.com/github/Nurzhan2023/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/364adb79c130f5d257e8/maintainability" /></a>
 
