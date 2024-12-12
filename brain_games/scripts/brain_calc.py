@@ -39,13 +39,13 @@ def randomaizer():
     number2 = random.randint(1, 100)
     operator = random.choice(['+', '-', '*'])
     if operator == '+':
-        question = (f"{number1}{operator}{number2}")
+        question = (f"{number1} {operator} {number2}")
         result = number1 + number2
     elif operator == '-':
-        question = (f"{number1}{operator}{number2}")
+        question = (f"{number1} {operator} {number2}")
         result = number1 - number2
     elif operator == '*':
-        question = (f"{number1}{operator}{number2}")
+        question = (f"{number1} {operator} {number2}")
         result = number1 * number2
     
     return question, str(result)
