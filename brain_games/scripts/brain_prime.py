@@ -21,7 +21,7 @@ def main():
                 f"'{answer}' is wrong answer ;"
                 "(. Correct answer was '{correct_answer}'."
             )
-            print (f"Let's try again, {name}!")
+            print(f"Let's try again, {name}!")
             return
 
         else:
@@ -31,10 +31,10 @@ def main():
 
 
 def is_prime(n):
-    if n<=1:
+    if n <= 1:
         return False
-    for i in range(2, int(n**0.5)+1):
-        if n%i == 0:
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
             return False
 
     return True
