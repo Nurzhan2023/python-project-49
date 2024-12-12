@@ -40,9 +40,3 @@ def generate_round():
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
-
