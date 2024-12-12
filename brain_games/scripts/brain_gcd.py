@@ -6,11 +6,12 @@ import math
 
 
 def main():
+    
     ROUNDS_COUNT = 3
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name?')
     print(f"Hello, {name}!")
-    print ("Find the greatest common divisor of given numbers.")
+    print("Find the greatest common divisor of given numbers.")
 
     for i in range(ROUNDS_COUNT):
         number1, number2 = find_divisor()
