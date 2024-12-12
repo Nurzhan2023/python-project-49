@@ -23,9 +23,9 @@ def main():
             print(f"Let's try again, {name}!")
             return
 
-        else:
-             print("Correct!")
 
+        else:
+            print("Correct!")
 
     print(f"Congratulations, {name}!")
 
