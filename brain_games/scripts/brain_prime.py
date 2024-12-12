@@ -30,22 +30,22 @@ def main():
             print("Correct!")
 
 
+def is_prime(n):
+    if n<=1:
+        return False
+    for i in range(2, int(n**0.5)+1):
+        if n%i == 0:
+            return False
+
+    return True
+    
+
+
 
 def prime():
     number = random.randint(1, 100)
     question = str(number)
-
-    
-    if number <= 1:
-        correct_answer = "no"
-    else:
-        for i in range(2, int(number ** 0.5) + 1):
-            if number % i == 0:
-                correct_answer = "no"
-                break
-        else:
-            correct_answer = "yes"
-
+    correct_answer = 'yes' if is_prime(number) else 'no'
     return question, correct_answer
 
 
