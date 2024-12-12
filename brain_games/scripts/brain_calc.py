@@ -17,7 +17,10 @@ def main():
         answer = prompt.string("Your answer: ").strip().lower()
 
         if answer != result:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{result}'.")
+            print(
+                f"'{answer}' is wrong answer ;"
+                "(. Correct answer was '{result}'."
+            )
             print(f"Let's try again, {name}!")
             return
 
