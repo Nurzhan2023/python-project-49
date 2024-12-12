@@ -13,7 +13,7 @@ def main():
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name?")
     print(f"Hello, {name}!")
-    print('Answer "Yes" if given number is prime. Otherwise answer "no".')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
 
     for i in range(ROUNDS_COUNT):
