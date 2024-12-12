@@ -5,8 +5,7 @@ import prompt
 import math
 
 
-def main():
-    
+def main():    
     ROUNDS_COUNT = 3
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name?')
