@@ -26,6 +26,8 @@ def main():
 
         else:
             print("Correct!")
+
+    
     print(f"Congratulations, {name}!")
 
 
