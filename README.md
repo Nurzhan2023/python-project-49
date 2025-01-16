@@ -18,6 +18,7 @@ To install the games, ensure you have Poetry installed on your machine, then run
 
 ```bash
 make install
+```
 
 ##Games
 To start playing, you can run the following commands:
@@ -25,18 +26,21 @@ To start playing, you can run the following commands:
 To Check if a number is prime:
 ```bash
 make brain-prime
+```
 Demonstration
 [![asciinema](https://asciinema.org/a/u65aOmJ8p8h8jzNnKyOHT7yD4.svg)](https://asciinema.org/a/u65aOmJ8p8h8jzNnKyOHT7yD4)
 
 To answer if a number is even:
 ```bash
 make brain-even
+```
 Demonstration
 [![asciinema](https://asciinema.org/a/UJcIHje1AFGQW0jVLQIsPTvra.svg)](https://asciinema.org/a/UJcIHje1AFGQW0jVLQIsPTvra)
 
 To provide the result of calculation:
 ```bash
 make brain-calc
+```
 Demonstration
 [![asciinema](https://asciinema.org/a/HvyBwauBSvLjuilTqCRT2Gbhn.svg)](https://asciinema.org/a/HvyBwauBSvLjuilTqCRT2Gbhn)
 
@@ -44,6 +48,7 @@ To find the greatest common divisor of two numbers:
 
 ```bash
 make brain-gcd
+```
 Demonstration
 [![asciinema](https://asciinema.org/a/PNmEbU9vVlbWT5rvvzptOk1kX.svg)](https://asciinema.org/a/PNmEbU9vVlbWT5rvvzptOk1kX)
 
@@ -51,6 +56,7 @@ To insert a number into an arithmetic progression:
 
 ```bash
 make brain-progression
+```
 Demonstration
 [![asciinema](https://asciinema.org/a/PSMfRjtLIYa1SfJU35MwgvQqp.svg)](https://asciinema.org/a/PSMfRjtLIYa1SfJU35MwgvQqp)
 
