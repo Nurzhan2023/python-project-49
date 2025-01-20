@@ -15,10 +15,9 @@ def run_game(game, question):
         print(f"Question: {question}")
         answer = prompt.string("Your answer: ").strip().lower()
 
-        if answer != result:
+        if answer != str(result):
             print(
-                    f"'(answer)' is wrong answer ;"
-                    "(. Correct answer was '{result}'.)"
+                    f"'{answer}' is wrong answer ;(. Correct answer was '{result}'.)"
                 )
             print(f"Let's try again, {name}!")
             return
