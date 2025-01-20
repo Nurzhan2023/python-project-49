@@ -14,7 +14,6 @@ def run_game(game, question):
         print(f"Question: {question}")
         answer = prompt.string("Your answer: ").strip().lower()
 
-
         if answer != str(result):
             print(
                     f"'{answer}' is wrong answer ;(."
@@ -29,4 +28,3 @@ def run_game(game, question):
 
 
     print(f"Congratulations, {name}!")
-
