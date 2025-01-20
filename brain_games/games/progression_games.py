@@ -11,6 +11,7 @@ def progression_game():
     hidden_index = random.randint(0, length - 1)
     hidden_value = progression[hidden_index]
     progression[hidden_index] = ".."
-    return progression, hidden_value
+    progression_str = " ".join(map(str, progression))
+    return progression_str, str(hidden_value)
 
 
