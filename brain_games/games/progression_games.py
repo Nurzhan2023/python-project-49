@@ -1,8 +1,7 @@
 import random
 
-def progression_game():
 
-    
+def progression_game():   
     start = random.randint(1, 10)
     step = random.randint(2, 10)
     length = random.randint(5, 10)
