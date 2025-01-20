@@ -23,5 +23,4 @@ def run_game(game, question):
             return
         print("Correct!")
 
-
     print(f"Congratulations, {name}!")
