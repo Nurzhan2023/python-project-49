@@ -19,11 +19,8 @@ def run_game(game, question):
                     f"'{answer}' is wrong answer ;(."
                     f"Correct answer was '{result}'.)"
                 )
-
             print(f"Let's try again, {name}!")
             return
-
-
         print("Correct!")
 
 
