@@ -1,7 +1,5 @@
 import random
 
-
-
 def progression_game():
 
     start = random.randint(1, 10)

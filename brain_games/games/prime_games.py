@@ -1,6 +1,5 @@
 import random
 
-
 def is_prime(n):
     if n <= 1:
         return False
@@ -9,7 +8,6 @@ def is_prime(n):
             return False
 
     return True
-
 
 def prime_game():
     number = random.randint(1, 100)

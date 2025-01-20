@@ -10,6 +10,5 @@ def main():
     run_game(calc_game, QUESTION)
 
 
-
 if __name__ == "__main__":
     main()

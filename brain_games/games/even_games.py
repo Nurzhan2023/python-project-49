@@ -1,6 +1,5 @@
 import random 
 
-
 def even_game():
     number = random.randint(1, 100)
     question = str(number)

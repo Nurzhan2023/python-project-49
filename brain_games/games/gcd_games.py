@@ -1,6 +1,5 @@
 import random
 
-
 def gcd(a, b):
     while b:
         a, b = b, a % b
@@ -11,4 +10,4 @@ def gcd_game():
     number2 = random.randint(1, 100)
     result = gcd(number1, number2)
     question = f"{number1} {number2}"
-    return question, result
+    return question, str(result)

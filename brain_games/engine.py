@@ -1,8 +1,7 @@
-#brain_games/engine.py
+# brain_games/engine.py
 
 import prompt
 from brain_games.cli import welcome_user
-
 
 
 def run_game(game, question):
@@ -15,14 +14,19 @@ def run_game(game, question):
         print(f"Question: {question}")
         answer = prompt.string("Your answer: ").strip().lower()
 
+
         if answer != str(result):
             print(
-                    f"'{answer}' is wrong answer ;(. Correct answer was '{result}'.)"
+                    f"'{answer}' is wrong answer ;(."
+                    f"Correct answer was '{result}'.)"
                 )
+
             print(f"Let's try again, {name}!")
             return
 
+
         print("Correct!")
+
 
     print(f"Congratulations, {name}!")
 

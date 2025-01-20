@@ -21,6 +21,7 @@ brain-progression = "brain_games.scripts.brain_progression:main"
 brain-prime = "brain_games.scripts.brain_prime:main"
 [tool.poetry.group.dev.dependencies]
 flake8 = "^7.1.1"
+ruff = "^0.9.2"
 
 [build-system]
 requires = ["poetry-core"]
