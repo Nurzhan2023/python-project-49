@@ -4,13 +4,13 @@ import prompt
 from brain_games.cli import welcome_user
 
 
-def run_game(game, question):
+def run_game(game):
     name = welcome_user()
-    print(question)
+    print(game.QUESTION)
     ROUNDS_COUNT = 3
 
     for i in range(ROUNDS_COUNT):
-        question, result = game()
+        question, result = game.generate_question()
         print(f"Question: {question}")
         answer = prompt.string("Your answer: ").strip().lower()
 

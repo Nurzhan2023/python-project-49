@@ -1,7 +1,10 @@
 import random
 
 
-def progression_game():   
+QUESTION = "What number is missing in the progression?"
+
+
+def generate_question():   
     start = random.randint(1, 10)
     step = random.randint(2, 10)
     length = random.randint(5, 10)
