@@ -1,7 +1,7 @@
 import random
 
 
-QUESTION = "What it the result of the expression?"
+QUESTION = "What is the result of the expression?"
 
 
 def generate_question():
